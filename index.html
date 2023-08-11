@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>North Remembers</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(http://localhost:3000/api/image);
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        #header {
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        #starks-dropdown {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        #selected-stark {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">North Remembers</header>
+
+    <div id="starks-dropdown">
+        <label for="starks">Starks:</label>
+        <select id="starks" onchange="handleStarkSelection()">
+            <option value="" selected disabled>Select a Stark</option>
+            <option value="ned">Ned</option>
+            <option value="cat">Cat</option>
+            <option value="rob">Rob</option>
+            <option value="jon">Jon</option>
+            <option value="sansa">Sansa</option>
+            <option value="arya">Arya</option>
+        </select>
+    </div>
+
+    <div id="selected-stark"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

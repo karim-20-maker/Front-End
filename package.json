@@ -1,0 +1,19 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "front it project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karim-20-maker/Front-End.git"
+  },
+  "author": "karim ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karim-20-maker/Front-End/issues"
+  },
+  "homepage": "https://github.com/karim-20-maker/Front-End#readme"
+}
